@@ -41,4 +41,19 @@ class Chien {
     
     return $message;
   }
+
+
+  /*******************************************************
+  Change la race du chien
+    Entrée : 
+      $r [string] : Race du chien du maître
+      
+    Sortie :
+      
+    Retour :
+      $this->race [string] : Race du chien matre dans l'objet instancié
+  *******************************************************/
+  public function changerRace($r) {
+    $this->race = $r;
+  }
 }
